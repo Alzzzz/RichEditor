@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_pic_url" type="id"/>
+    <item type="id" name="tag_edit_type"/>
+    <item type="id" name="tag_video_cover"/>
+    <item type="id" name="tag_video_length"/>
+</resources>

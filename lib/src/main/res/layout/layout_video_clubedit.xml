@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_cover_video"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/iv_delete_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:src="@drawable/icon_tiezi_guanbi"/>
+
+    <ImageView
+        android:id="@+id/iv_start_video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/btn_bofang"/>
+
+    <TextView
+        android:id="@+id/tv_changecover_video"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:text="更换封面"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"/>
+
+    <com.starunion.lib.RoundImageMaskView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

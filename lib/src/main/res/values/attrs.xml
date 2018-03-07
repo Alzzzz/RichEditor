@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HFRichEditor">
+        <attr name="hint" format="string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="maxLength" format="integer"/>
+    </declare-styleable>
+</resources>
